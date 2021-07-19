@@ -1,0 +1,18 @@
+/*
+Write a C++ Program to find Square Root of a number using sqrt() function.
+Here’s simple program to find Root of a Number using sqrt() function in C++ Programming Language.
+*/
+#include <iostream>
+#include<math.h>
+
+using namespace std;
+
+int main()
+{ 
+    int n;
+    cout<<"Enter any positive number : ";
+    cin>>n;
+    int squ=sqrt(n);
+    cout<<"Square root of Entered Number "<<"["<<n<<"] = "<<squ<<endl;
+    return 0;
+}
