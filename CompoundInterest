@@ -1,0 +1,27 @@
+/*
+Write a C++ Program to Calculate Compound Interest. Here’s simple Program to Calculate Compound Interest in C++ Programming Language.
+
+The formula for annual compound interest, including principal sum, is:
+
+A = P (1 + r/n) (nt)A = the future value of the investment/loan, including interest
+P = the principal investment amount (the initial deposit or loan amount)
+r = the annual interest rate (decimal)
+n = the number of times that interest is compounded per year
+t = the number of years the money is invested or borrowed for
+*/
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{ 
+   float p,r,t,ci;
+   cout<<"Enter amount : ";
+   cin>>p;
+   cout<<"Enter rate of interest : ";
+   cin>>r;
+   cout<<"Enter time period : ";
+   cin>>t;
+   ci = p*pow((1+r/100),t);
+   cout<<"The Calculated Compound Interest is : "<<ci;
+   
+}
