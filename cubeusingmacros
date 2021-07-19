@@ -1,0 +1,15 @@
+
+#include <iostream>
+#include<math.h>
+#define CUBE(x) (x*x*x)
+using namespace std;
+
+int main()
+{
+   int n;
+   cout<<"Enter any positive number :: ";
+   cin>>n;
+   int cube=CUBE(n);
+   cout<<"\nThe Cube of Entered Number [ "<<n<<" ] is :: [ "<<cube<<" ]\n";
+   return 0;
+}
