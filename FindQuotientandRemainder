@@ -1,0 +1,23 @@
+/*
+Write a C++ Program to Find Quotient and Remainder of 2 numbers. Here’s simple C++ Program to Find Quotient and Remainder of 2 numbers in C++ Programming Language.
+
+In this program, user is asked to enter two integers (divisor and dividend) and computes the quotient and remainder.
+To compute quotient and remainder, both divisor and dividend should be integers.
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int div1,divi;
+    cout<<"Enter Dividend :: ";
+    cin>>div1;
+    cout<<"Enter Divisor :: ";
+    cin>>divi;
+    int Quotients=div1/divi;
+    cout<<"Quotient = "<<Quotients<<endl; 
+    int remainders=div1%divi;
+    cout<<"Remainder = "<<remainders;
+    return 0;
+}
