@@ -1,0 +1,23 @@
+/*
+Write a C++ Program to convert inches to feet yards and inches. 
+Here’s simple Program to convert inches to feet yards and inches in C++ Programming Language.
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int y,f,i;
+    
+    cout<<"Enter Inches to Convert :: ";
+    cin>>i;
+    y=i/432;
+    i=i%432;
+    f=i/12;
+    i=i%12;
+    cout<<"\nAfter Conversion from inches to feet, yards and inches :: \n"<<y<<endl<<f<<endl<<i;
+
+    return 0;
+}
