@@ -1,0 +1,22 @@
+/*
+Write a C++ Program to Swap Two Numbers without using third variable
+C++ Program to Swap Two Numbers without  third variable. Here’s simple Program to Swap Two Numbers without using temp variable in C++ Programming Language.
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,m;
+    cout<<"Enter 1st number :: ";
+    cin>>n;
+    cout<<"Enter 2nd number :: ";
+    cin>>m;
+    cout<<"Before swapping Number are ::"<<endl<<"a = "<<n<<" "<<"b = "<<m<<endl;
+    n=n+m;
+    m=n-m;
+    n=n-m;
+    cout<<"After swapping Number are ::"<<endl<<"a = "<<n<<" "<<"b = "<<m;
+    return 0;
+}
