@@ -1,0 +1,20 @@
+/*
+Write a C++ Program to Find Size of Int Float Double and Char data types.
+Here’s simple Program to Find Size of Int Float Double and Char data types in C++ Programming Language.
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int integer;
+    char character;
+    float floating;
+    double doubles;
+    cout<<"size of int : "<<sizeof(integer)<< " byte"<<endl;
+    cout<<"size of char : "<<sizeof(character)<< " byte"<<endl;
+    cout<<"size of float : "<<sizeof(floating)<< " byte"<<endl;
+    cout<<"size of double : "<<sizeof(doubles)<< " byte"<<endl;
+    return 0;
+}
