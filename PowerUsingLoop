@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   int b,p,pow=1;
+   cout<<"Enter base =";
+   cin>>b;
+   cout<<"Enter power =";
+   cin>>p;
+
+   for(int i=1;i<=p;i++)
+   {
+        pow=pow*b;
+   }
+   cout<<"Power of a Number = "<<pow;
+
+  return 0;
+  }
