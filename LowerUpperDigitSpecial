@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char ch;
+    cout<<"Enter any character to check :: ";
+    cin>>ch;
+    if(ch>=65&&ch<=90)
+      cout<<"the character is uppercase character";
+    else if(ch>=48&&ch<=57)
+      cout<<"the character is digit";
+    else if(ch>=97&&ch<=122)
+      cout<<"the character is lowercase character";
+    else
+      cout<<"the character is special character";
+    return 0;
+}
